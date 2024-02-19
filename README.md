@@ -1,5 +1,6 @@
 ### How to get your token
 
-1. Open dev tools an go to the "network" tab
-2. Search for a request with an "authorization" in headers
-3. copy it and paste it in config.py
+1. Install an extension like "Cookie-Editor" on your browser
+2. Go to anki pro and open cookie editor
+3. Search for the cookie "AnkiProToken" and copy it
+4. Edit "config.py" and paste your token ( Add "Bearer" before), ex: `authorization = "Bearer ey4dkq4dokqzokdqzopdoqpdokpqok"`
