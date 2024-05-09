@@ -1,1 +1,1 @@
-authorization = "Bearer ey"
+authorization = "Bearer replace-me"

@@ -1,6 +1,16 @@
-### How to get your token
+# ankipro-deck-export
 
-1. Install an extension like "Cookie-Editor" on your browser
-2. Go to anki pro and open cookie editor
-3. Search for the cookie "AnkiProToken" and copy it
-4. Edit "config.py" and paste your token ( Add "Bearer" before), ex: `authorization = "Bearer ey4dkq4dokqzokdqzopdoqpdokpqok"`
+### how to get your token
+
+1. insall the [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm) extension
+2. Go to [ankipro](https://ankipro.net/decks) and the cookie-editor extension
+3. Search for the `AnkiProToken` and copy-paste it in`config.py`
+
+### how to use
+
+1. run main.py
+2. copy the deck url in your browser and paste it
+
+   - ex: https://ankipro.net/deck/11111111
+
+3. press enter
